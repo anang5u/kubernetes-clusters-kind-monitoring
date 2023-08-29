@@ -235,3 +235,19 @@ $ kubectl delete pod kube-proxy-qcgn2 -n kube-system
 ### Grafana Dashboard Kubernetes / Compute Resources / Cluster
 
 ![Grafana Dashboard Kubernetes / Compute Resources / Cluster](./assets/grafana-dashboard-kubernetes-compute-resources-clusters.jpg)
+
+### Uninstall
+```
+$ terraform destroy
+
+...
+Plan: 0 to add, 0 to change, 2 to destroy.
+
+Do you really want to destroy all resources?
+  Terraform will destroy all your managed infrastructure, as shown above.
+  There is no undo. Only 'yes' will be accepted to confirm.
+
+  Enter a value: yes
+...
+
+```
